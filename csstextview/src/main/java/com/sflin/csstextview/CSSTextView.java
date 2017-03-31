@@ -687,7 +687,7 @@ public class CSSTextView extends AppCompatTextView {
      * @param size   字体大小
      * @param style  字体样式
      */
-    public CSSTextView setTextArrColorSizeStyle(String text, final int color, int size, int style){
+    public CSSTextView setTextArrColorSizeStyle(String text, int color, int size, int style){
         if (getText().length()==0){
             throw new NullPointerException("Please Set The textView Content!");
         }
